@@ -20,7 +20,7 @@
             android:layout_width="93dp"
             android:layout_height="93dp"
             android:layout_margin="12dp"
-            android:background="@drawable/image"
+            android:src="@drawable/image"
             ></ImageView>
         <LinearLayout
             android:orientation="vertical"
