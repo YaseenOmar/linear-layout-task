@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="117dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/shape"
+        >
+
+        <ImageView
+            android:layout_width="93dp"
+            android:layout_height="93dp"
+            android:layout_margin="12dp"
+            android:background="@drawable/image"
+            ></ImageView>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="12dp"
+            >
+            <TextView
+                android:layout_width="115dp"
+                android:layout_height="21dp"
+                android:text="Ahmed Hassan"
+                android:textSize="16sp"
+                android:textFontWeight="700"
+                android:textColor="#000000"
+                />
+            <TextView
+                android:layout_marginTop="8dp"
+                android:layout_width="50dp"
+                android:layout_height="16dp"
+                android:text="Engineer"
+                android:textSize="12sp"
+                android:textFontWeight="500"
+                android:textColor="#122940"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                >
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="12dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@drawable/ic_baseline_place_24"
+                    />
+                <TextView
+                    android:layout_width="17dp"
+                    android:layout_height="17dp"
+                    android:text="UK"
+                    android:layout_marginStart="4dp"
+                    android:textFontWeight="400"
+                    android:textColor="#99263238"
+                    android:textSize="13sp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+
+                >
+                <TextView
+                    android:layout_width="78dp"
+                    android:layout_height="16dp"
+                    android:text="(150 Reviews)"
+                    android:textFontWeight="400"
+                    android:textSize="12sp"
+                    android:textColor="#000000"
+                    />
+                <TextView
+                    android:layout_width="18dp"
+                    android:layout_height="16dp"
+                    android:text="4.5"
+                    android:textSize="12sp"
+                    android:textFontWeight="500"
+                    android:textColor="#000000"
+                    android:layout_marginStart="8dp"
+                    />
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@drawable/ic_baseline_star_24"
+                    />
+            </LinearLayout>
+           
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            >
+            <LinearLayout
+                android:layout_gravity="end"
+                android:orientation="vertical"
+                android:layout_width="38dp"
+                android:layout_height="22dp"
+                android:background="@drawable/shape2"
+                >
+                <TextView
+                    android:paddingVertical="3dp"
+                    android:paddingHorizontal="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="3 hr"
+                    android:textColor="#FFFFFF"
+                    android:textSize="12sp"
+                    />
+            </LinearLayout>
+            <TextView
+                android:layout_gravity="end"
+                android:layout_marginTop="12dp"
+                android:layout_width="44dp"
+                android:layout_height="16dp"
+                android:text="Russian"
+                android:textFontWeight="500"
+                android:lineHeight="16sp"
+                android:textColor="#DE122940"
+                android:textSize="12sp"
+                />
+            <TextView
+                android:layout_width="61dp"
+                android:layout_height="16dp"
+                android:layout_gravity="end"
+                android:text="5 Days ago"
+                android:textSize="12sp"
+                android:layout_marginTop="9dp"
+                android:textFontWeight="400"
+                android:lineHeight="16dp"
+
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
